@@ -17,8 +17,8 @@ class IpfastAPI:
     else:
       return None
     
-
-
+  def __str__(self):
+    return self.url
 
   #   `
   # def get(self):
