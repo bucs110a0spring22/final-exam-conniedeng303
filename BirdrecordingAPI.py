@@ -1,29 +1,29 @@
 import requests
+import json
 
 
 class BirdrecordingAPI:
-  def __init__(self, query = "https://www.xeno-canto.org/api/2/recordings?query=bearded+bellbird+q:A", ):
-    self.url = "https://www.xenocanto.org/api/2"
-    query = "https://www.xeno-canto.org/api/2/recordings?query=bearded+bellbird+q:A"
+  def __init__(self, query = "https://www.xeno-canto.org/api/2/recordings?query=cnt:brazil"):
+    self.api_url = "https://www.xenocanto.org/api/2"
     birdresponse: requests.get("https://www.xenocanto.org/api/2")
 
   def getname(self):
-    birdrecording = requests.get(self.url)
+    birdrecording = requests.get(self.api_url)
     response = birdrecording.json
-    if response.get('sp')
+    if response.get('sp'):
       return response['sp']
     else:
       return None
 
   def getcountry(self):
-    birdrecording = requests.get(self.url)
+    birdrecording = requests.get(self.api_url)
     response = birdrecording.json
-    if response.get('cnt')
+    if response.get('cnt'):
       return response['cnt']
     else:
       return None
 
-``
+
 
 
 

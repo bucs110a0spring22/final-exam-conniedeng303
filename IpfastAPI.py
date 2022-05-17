@@ -1,4 +1,5 @@
 import requests
+import json
 
 response = requests.get('https://ip-fast.com/api/ip/')
 print(response.text)
