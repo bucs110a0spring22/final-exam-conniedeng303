@@ -2,7 +2,7 @@ import requests
 
 
 class BirdrecordingAPI:
-  def __init__(self):
+  def __init__(self, query = https://www.xeno-canto.org/api/2/recordings?query=troglodytes+troglodytes):
     self.api_url = "https://www.xenocanto.org/api/2"
 
   def getname(self):
