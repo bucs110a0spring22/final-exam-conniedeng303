@@ -7,7 +7,7 @@ print(response.text)
 
 class IpfastAPI:
   def __init__(self,format = json, location = True):
-    self.url = "https://ip-fast.com/api/ip/?format=json&location=True"
+    self.api_url = "https://ip-fast.com/api/ip/?format=json&location=True"
     
   def getlocation(self):
     iplocation = requests.get(self.url)
