@@ -12,12 +12,11 @@ Please make sure you have completed the soot survey at:
     [soot.binghamton.edu](https://soot.binghamton.edu)
 
 Please list the urls for the APIs you used:
-  -
-  -
+  -https://www.xenocanto.org/api/2
+  -https://ip-fast.com/api/ip/
   
 Summary of Program:
-  The most prevalent memes that I found a lot across the Internet are those that state that they aquired the viewer's IP address. I decided to combine two APIs, one of which would tell me where the location of the bird's recording was, and where the location of the user's IP is. I first tried to get to get data from the BirdrecordingAPI, and I tried to get the name of the bird as well as the 
-Unfounately I keep getting JSON errors, which I couldn't fix in my limited time span.
+  The most prevalent memes that I found a lot across the Internet are those that state that they aquired the viewer's IP address. I decided to combine two APIs, one of which would tell me where the location of the bird's recording was, and where the location of the user's IP is. I first tried to get to get data from the BirdrecordingAPI, and I tried to get the name of the bird as well as the location. The main function essentially figures out if the data from BirdrecordingAPI and IpfastAPI locations are the same. Unfounately I keep getting JSON errors, which I couldn't fix in my limited time span.
 
 Most Challenging topic in the course:
   I felt like JSON related topics were difficult for me to understand.
