@@ -14,7 +14,7 @@ class BirdrecordingAPI:
       return None
       
     def __str__(self):
-      return self.url
+      return self.api_url
 
   def getcountry(self):
     birdrecording = requests.get(self.api_url)
