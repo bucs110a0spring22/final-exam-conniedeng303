@@ -3,12 +3,6 @@ import random
 import BirdrecordingsAPI
 import IpfastAPI
 
-# def main():
-  # birdapi = BirdrecordingsAPI.BirdrecordingsAPI()
-  # birds = birdapi.get()
-  # species is a Recordings object inside the recordings list
-  # print(species(birds[random.randrange(1,len(birds)+1]['cnt'])
-
                 
 def main():
   birdapi = BirdrecordingsAPI.BirdrecordingsAPI()

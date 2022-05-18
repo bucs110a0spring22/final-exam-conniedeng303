@@ -22,10 +22,10 @@ Most Challenging topic in the course:
   I felt like JSON related topics were difficult for me to understand.
   
 ## KNOWN BUGS AND INCOMPLETE PARTS:
- 
+ None.
 
 ## REFERENCES:
  None.
 
 ## MISCELLANEOUS COMMENTS:
- Not sure if the prof made a note, but he made an extension for my final (5/17/2022 Midnight) because my replit wasn't loading.
+ Not sure if the prof made a note, but he made an extension for my final (5/17/2022 Midnight) because my replit wasn't loading. Thank you!
