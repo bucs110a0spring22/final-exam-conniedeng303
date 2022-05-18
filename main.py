@@ -1,22 +1,28 @@
 import requests
-import json
-import BirdrecordingAPI
+import random
+import BirdrecordingsAPI
 import IpfastAPI
 
+# def main():
+  # birdapi = BirdrecordingsAPI.BirdrecordingsAPI()
+  # birds = birdapi.get()
+  # species is a Recordings object inside the recordings list
+  # print(species(birds[random.randrange(1,len(birds)+1]['cnt'])
 
-
+                
 def main():
-  bird = BirdrecordingAPI.BirdrecordingAPI()
-  ip = IpfastAPI.IpfastAPI()
-  names = bird.getname()
-  for name in names:
-    print(name)
-  results_bird = bird.get()
-  results_ip = ip.get()
-  print("The bird we are looking at today is called" + BirdrecordingAPI[0] + "!")
-  if bird.getcountry() == bird.getlocation():
-    print("This bird is in your country! It knows your IP address, and is coming straight for your location. Run.")
+  birdapi = BirdrecordingsAPI.BirdrecordingsAPI()
+  ipapi = IpfastAPI.IpfastAPI()
+  birds = birdapi.get()
+  user_ip = ipapi.getIP()
+  user_country = ipapi.get_country()
+  bird_country = (birds[random.randrange(1,len(birds)+1)]['cnt'])
+  print("Troglodytes Troglodytes genus birds are one of the most common birds found in every continent. In fact, lets pick a random bird and see if it's near you:")
+  if str(user_country) == str(bird_country):
+    print("Looks like a Troglodytes Troglodytes is near you. It even knows your IP address!" + user_ip + "It's coming for you. Run")
   else:
-    print("This bird does not reside in your country. It knows your IP address though.")
+    print("Looks like a Troglodytes Troglodytes does not live in your region. This particular bird is living in" + bird_country + "It knows your IP address though. It's" + user_ip + ". It's coming to you.")
+
 
 main()
+
