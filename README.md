@@ -12,7 +12,9 @@ Please make sure you have completed the soot survey at:
     [soot.binghamton.edu](https://soot.binghamton.edu)
 
 Please list the urls for the APIs you used:
-  -https://www.xenocanto.org/api/2
+bird recordings api:
+  -https://xeno-canto.org/explore/api
+ipfast api:
   -https://ip-fast.com/api/ip/
   
 Summary of Program:
